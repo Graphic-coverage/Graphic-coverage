@@ -15,6 +15,7 @@ headers = {
     'Authorization': f'Basic {base64_credentials}'
 }
 
+
 # URL of the API endpoint you want to access
 season = 2022
 regionCode = "ILCMPSOLR"

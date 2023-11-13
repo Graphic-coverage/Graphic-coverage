@@ -1,21 +1,60 @@
 import requests
-from bs4 import BeautifulSoup
+import base64
+import json
 
-# URL of the web page you want to scrape
-url = "https://ftc-api.firstinspires.org/v2.0/2021/rankings/ILYAS1"
+teams_names = {
+    "9662": "apollo",
+    "111992": "black tigers",
+    # ... (rest of the teams_names dictionary)
+}
 
-# Send an HTTP GET request to the URL
-response = requests.get(url)
+# Shay's username and Authorization key
+username = "shayapi"
+authorization_key = "0B7728C5-E529-478F-B53D-FA3F95A1CCF4"
+
+# Combine and encode the credentials
+credentials = f'{username}:{authorization_key}'.encode('utf-8')
+base64_credentials = base64.b64encode(credentials).decode('utf-8')
+
+# Set up the headers with the Authorization header using the base64-encoded credentials
+headers = {
+    'Authorization': f'Basic {base64_credentials}'
+}
+
+# URL of the API endpoint you want to access
+season = 2022
+regionCode = "ILCMPSOLR"
+api_url = f"http://ftc-api.firstinspires.org/v2.0/{season}/matches/{regionCode}"
+
+# Make a GET request to the API with the correct headers
+response = requests.get(api_url, headers=headers)
 
 if response.status_code == 200:
-    # Parse the HTML content of the page using BeautifulSoup
-    soup = BeautifulSoup(response.text, 'html.parser')
+    data = response.json()
 
-    # Find and extract data from the HTML content using BeautifulSoup's methods
-    # For example, you can find a specific element by its tag and class
-    data = soup.find('tag_name', class_='class_name').text
+    # Dictionary to store team numbers and their corresponding data
+    team_data = {}
 
-    # Print or process the extracted data
-    print(data)
+    # Iterate through matches
+    for match in data.get('matches', []):
+        # Iterate through teams in each match
+
+        for team in match.get('teams', []):
+            team_number = team.get('teamNumber')
+            station = team.get('station')
+            if team_number is not None:
+                # Create an empty dictionary for the team if it doesn't exist
+                team_dict = team_data.setdefault(team_number, {})
+
+                # Add data to the team's dictionary
+                team_dict["team name"] = teams_names.get(str(team_number), "Unknown")
+                team_dict["station"] = station
+
+    # Print the structure for each team number
+    for team_number, data in team_data.items():
+        print(f"Team Number: {team_number}")
+        print(json.dumps(data, indent=4))
+        print("\n")
+
 else:
     print(f"Request failed with status code {response.status_code}")
