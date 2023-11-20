@@ -1,0 +1,210 @@
+{
+    "teams": [
+        {
+            "Team Number" : 15637,
+            "team name: ": "fata Morgana",
+            "Ranking Points": 16,
+            "Total score": 1742,
+            "Average points": 217.75,
+            "team's rank according to the average": 1,
+            "Total autonomous score": 371,
+            "Autonomous score average": 46.375,
+            "team's rank according to the Autonomous average": 1,
+            "Total Teleop score": 1371,
+            "team's rank according to the Teleop average": 1,
+            "Qualification Count": 8
+        },
+        
+        
+        {
+            "Team Number" : 14029,
+            "team name: ": "orbit vikings",
+            "Ranking Points": 14,
+            "Total score": 1304,
+            "Average points": 163.0,
+            "team's rank according to the average": 2,
+            "Total autonomous score": 207,
+            "Autonomous score average": 25.875,
+            "team's rank according to the Autonomous average": 3,
+            "Total Teleop score": 1097,
+            "team's rank according to the Teleop average": 2,
+            "Qualification Count": 8
+        },
+        
+        
+        {
+            "Team Number": 18833,
+            "team name: ": "megiddo lions",
+            "Ranking Points": 12,
+            "Total score": 1181,
+            "Average points": 131.22222222222223,
+            "team's rank according to the average": 3,
+            "Total autonomous score": 276,
+            "Autonomous score average": 30.666666666666668,
+            "team's rank according to the Autonomous average": 2,
+            "Total Teleop score": 905,
+            "team's rank according to the Teleop average": 3,
+            "Qualification Count": 9
+        },
+        
+        
+        {
+            "Team Number": 12201,
+            "team name: ": "tatooin",
+            "Ranking Points": 12,
+            "Total score": 958,
+            "Average points": 106.44444444444444,
+            "team's rank according to the average": 4,
+            "Total autonomous score": 136,
+            "Autonomous score average": 15.11111111111111,
+            "team's rank according to the Autonomous average": 7,
+            "Total Teleop score": 822,
+            "team's rank according to the Teleop average": 4,
+            "Qualification Count": 9
+        },
+        
+        
+        {
+            "Team Number": 11808,
+            "team name: ": "connection",
+            "Ranking Points": 6,
+            "Total score": 805,
+            "Average points": 115.0,
+            "team's rank according to the average": 5,
+            "Total autonomous score": 125,
+            "Autonomous score average": 17.857142857142858,
+            "team's rank according to the Autonomous average": 11,
+            "Total Teleop score": 680,
+            "team's rank according to the Teleop average": 5,
+            "Qualification Count": 7
+        },
+        
+        
+        {
+            "Team Number": 22734,
+            "team name: ": "jotunheim",
+            "Ranking Points": 8,
+            "Total score": 788,
+            "Average points": 131.33333333333334,
+            "team's rank according to the average": 6,
+            "Total autonomous score": 136,
+            "Autonomous score average": 22.666666666666668,
+            "team's rank according to the Autonomous average": 8,
+            "Total Teleop score": 652,
+            "team's rank according to the Teleop average": 6,
+            "Qualification Count": 6
+        },
+        
+        
+        {
+            "Team Number": 22646,
+            "team name: ": "mitspe yam",
+            "Ranking Points": 10,
+            "Total score": 777,
+            "Average points": 111.0,
+            "team's rank according to the average": 7,
+            "Total autonomous score": 167,
+            "Autonomous score average": 23.857142857142858,
+            "team's rank according to the Autonomous average": 4,
+            "Total Teleop score": 610,
+            "team's rank according to the Teleop average": 7,
+            "Qualification Count": 7
+        },
+        
+        
+        {
+            "Team Number": 20669,
+            "team name: ": "BFC",
+            "Ranking Points": 6,
+            "Total score": 722,
+            "Average points": 120.33333333333333,
+            "team's rank according to the average": 8,
+            "Total autonomous score": 150,
+            "Autonomous score average": 25.0,
+            "team's rank according to the Autonomous average": 6,
+            "Total Teleop score": 572,
+            "team's rank according to the Teleop average": 9,
+            "Qualification Count": 6
+        },
+        
+        
+        {
+            "Team Number": 15811,
+            "team name: ": "boosteam",
+            "Ranking Points": 4,
+            "Total score": 711,
+            "Average points": 79.0,
+            "team's rank according to the average": 9,
+            "Total autonomous score": 157,
+            "Autonomous score average": 17.444444444444443,
+            "team's rank according to the Autonomous average": 5,
+            "Total Teleop score": 554,
+            "team's rank according to the Teleop average": 10,
+            "Qualification Count": 9
+        },
+        
+        
+        {
+            "Team Number": 15141,
+            "team name: ": "amit Ashdod",
+            "Ranking Points": 8,
+            "Total score": 666,
+            "Average points": 95.14285714285714,
+            "team's rank according to the average": 10,
+            "Total autonomous score": 87,
+            "Autonomous score average": 12.428571428571429,
+            "team's rank according to the Autonomous average": 20,
+            "Total Teleop score": 579,
+            "team's rank according to the Teleop average": 8,
+            "Qualification Count": 7
+        },
+        
+        
+        {
+            "Team Number": 22947,
+            "team name: ": "hiydra",
+            "Ranking Points": 6,
+            "Total score": 656,
+            "Average points": 109.33333333333333,
+            "team's rank according to the average": 11,
+            "Total autonomous score": 106,
+            "Autonomous score average": 17.666666666666668,
+            "team's rank according to the Autonomous average": 18,
+            "Total Teleop score": 550,
+            "team's rank according to the Teleop average": 11,
+            "Qualification Count": 6
+        },
+        
+        
+        {
+            "Team Number": 19967,
+            "team name: ": "AIS TALONS",
+            "Ranking Points": 8,
+            "Total score": 644,
+            "Average points": 107.33333333333333,
+            "team's rank according to the average": 12,
+            "Total autonomous score": 109,
+            "Autonomous score average": 18.166666666666668,
+            "team's rank according to the Autonomous average": 17,
+            "Total Teleop score": 535,
+            "team's rank according to the Teleop average": 12,
+            "Qualification Count": 6
+        },
+        
+        
+        {
+            "Team Number": 22681,
+            "team name: ": "Amal",
+            "Ranking Points": 6,
+            "Total score": 621,
+            "Average points": 103.5,
+            "team's rank according to the average": 13,
+            "Total autonomous score": 121,
+            "Autonomous score average": 20.166666666666668,
+            "team's rank according to the Autonomous average": 12,
+            "Total Teleop score": 500,
+            "team's rank according to the Teleop average": 14,
+            "Qualification Count": 6
+        }
+    ]
+}
