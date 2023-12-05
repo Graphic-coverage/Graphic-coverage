@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+  "include": [
+    "typeScript/teamCover.ts",
+    "typeScript/loadCoverTable.ts"
+  ],
+  "exclude": ["node_modules"]
+}
